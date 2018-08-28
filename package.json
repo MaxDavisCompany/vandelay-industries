@@ -1,0 +1,22 @@
+{
+  "name": "vandelay-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxDavisCompany/vandelay-industries.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxDavisCompany/vandelay-industries/issues"
+  },
+  "homepage": "https://github.com/MaxDavisCompany/vandelay-industries#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
