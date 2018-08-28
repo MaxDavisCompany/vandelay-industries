@@ -17,6 +17,19 @@
   },
   "homepage": "https://github.com/MaxDavisCompany/vandelay-industries#readme",
   "dependencies": {
+    "browser-sync": "^2.24.7",
     "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.1.3",
+    "browsersync": "0.0.1-security",
+    "gulp-postcss": "^8.0.0",
+    "gulp-watch": "^5.0.1",
+    "normalize.css": "^8.0.0",
+    "postcss-hexrgba": "^1.0.1",
+    "postcss-import": "^12.0.0",
+    "postcss-mixins": "^6.2.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-simple-vars": "^4.1.0"
   }
 }
