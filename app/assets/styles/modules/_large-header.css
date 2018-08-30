@@ -11,7 +11,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    transform: translateY(70%);
+    transform: translateY(50%);
     text-align: center;
   }
 
@@ -26,7 +26,7 @@
     color: #fff;
     font-size: 2rem;
     font-weight: 200;
-    transform: translateY(-70%);
+    transform: translateY(-180%);
 
   }
 }

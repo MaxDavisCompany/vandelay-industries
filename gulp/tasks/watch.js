@@ -1,4 +1,4 @@
-var gulp = require('gulp'),
+ var gulp = require('gulp'),
 watch = require('gulp-watch'),
 browserSync = require('browser-sync').create();
 
@@ -21,6 +21,6 @@ watch('./app/assets/styles/**/*.css', function() {
 });
 
 gulp.task('cssInject', ['styles'], function() {
-  return gulp.src('./temp/styles/styles.css')
+  return gulp.src('./app/temp/styles/styles.css')
   .pipe(browserSync.stream());
 });

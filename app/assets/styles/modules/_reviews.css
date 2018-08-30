@@ -1,0 +1,59 @@
+.reviews {
+  margin-bottom: 50%;
+  margin-top: 30%;
+  padding: 0 1.8125rem 1px 1.8125rem;
+  background-color: #e0e6ef;
+
+  &__reviews {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  &__photo {
+    display: block;
+    border-radius: 80px;
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto -80px auto;
+    position: relative;
+    top: -80px;
+    border: 6px solid white;
+  }
+
+  &__title {
+    color: $mainPurple;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  &__subtitle {
+    color: $mainPink;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: .25rem 0 1rem 0;
+  }
+
+  &__background {
+    background: url("/assets/images/reviews-bg.jpg") top center no-repeat;
+    background-size: cover;
+  }
+
+  p {
+    line-height: 1.7;
+  }
+
+  &__jane-p {
+    margin-bottom: 23%;
+
+  }
+
+  &__cat-p {
+    margin-bottom: 14%;
+  }
+}

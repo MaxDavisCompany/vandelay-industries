@@ -1,0 +1,15 @@
+.site-header {
+  padding: 10px 0;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  left: 15%;
+
+
+&__btn-container {
+  @mixin atMedium {
+    float: right;
+  }
+}
+
+}

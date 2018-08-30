@@ -6,17 +6,20 @@
   <link rel="stylesheet" href="./temp/styles/styles.css">
 </head>
 
-<header>
+<header class="site-header">
+  <div class="wrapper">
 
-  <a href="#" class="btn">Let's Eat!</a>
-<nav>
+<div class="site-header__btn-container">
+  <a href="#" class="btn btn--orange btn--large">Log In</a>
+</div>
+<nav class="primary-nav primary-nav--pull-right">
   <ul>
-    <li><a href="#our-beginning">Our Beginning</a></li>
-    <li><a href="#menus">Menu</a></li>
-    <li><a href="#locations">Locations</a></li>
+    <li><a href="#about-us">About Us</a></li>
+    <li><a href="#social-media">Social Media</a></li>
+    <li><a href="#reviews">Reviews</a></li>
   </ul>
 </nav>
-
+</div>
 </header>
 
 <body>
@@ -24,53 +27,83 @@
 
 <div class="large-header">
   <picture>
-<img src="assets/images/flat-orange-city--large.jpg" class="large-header__image">
-</picture>
+      <source srcset="assets/images/flat-orange-city--large.jpg 1920w," media="(min-width: 1380px)">
+      <source srcset="assets/images/flat-orange-city--medium.jpg 1380w" media="(min-width: 990px)">
+      <source srcset="assets/images/flat-orange-city--small.jpg 990w" media="(min-width: 640px)">
+      <img sizes="100vw" srcset="assets/images/flat-orange-city--smaller.jpg 640w," alt="Coastal view of ocean and mountains" class="large-hero__image">
+    </picture>
 
 
 <div class="large-header__text-content">
 <h1 class="large-header__title"> Vandelay Industries </h1>
 <h2 class="large-header__subtitle"> We put the delay in Vandelay </h2>
+<p><a href="#" class="btn btn--orange btn--large">Get Started Today</a></p>
 </div>
 </div>
 
-<div id="about-us">
+<div id="about-us" class="about-us">
+  <div class="wrapper">
+<div class="page-section">
+  <div class="row row--gutters">
+  <h2 class="page-section--title">The first trip we planned <strong>was our own.</strong></h2>
+  <h3 class="page-section--subtitle">Ever since, we&rsquo;ve been working to make travel <strong>better for everyone.</strong></h3>
+  <img class="page-section--buildings" src="assets/images/architecture.jpg" alt="buildings">
 
-  <h2>The first trip we planned was our own.</h2>
-  <h3>Ever since, we&rsquo;ve been working to make travel better for everyone.</h3>
-  <img src="assets/images/architecture.jpg" alt="buildings">
-  <img src="assets/images/business-man-portrait.jpg" alt="Our founder, Joe Smith">
-  <h2>Here&rsquo;s how we got started&hellip;</h2>
+<div class="row__4">
+  <img class="page-section--man page-section" src="assets/images/business-man-portrait-2.jpg" alt="Our founder, Joe Smith">
+</div>
+<div class="row__8">
+  <div class="generic-content-container">
+  <h2 class="page-section--title page-section--middle">Here&rsquo;s how we got started&hellip;</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <a href="#">quis nostrud exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <p>Duis aute irure dolor in <strong>reprehenderit in</strong> voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum velit esse cillum <strong>dolore eu fugiat.</strong></p>
 </div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 
 
 
 
-<div id="our-products">
+<div id="social-media">
+  <div class="social-media">
+    <div class="wrapper">
 
-  <img src="assets/images/icons/share-icon.png">
-  <h2>Our Features</h2>
+  <img class="social-media--title-icon" src="assets/images/icons/share-icon.png" "height=100px width=100px">
+  <h2>Social <strong>Media</strong></h2>
 
-  <img src="assets/images/icons/ig-icon.png">
-  <h3>We&rsquo;ll Watch the Weather</h3>
+  <div class="generic-content-container">
+
+  <d  iv class="row row--gutters">
+
+  <div class="row__6">
+  <img class="social-media--icon" src="assets/images/icons/ig-icon.png" "height=100px width=100px">
+  <h3>Instagram</h3>
   <p>Download our app and we&rsquo;ll send you a notice if it&rsquo;s about to rain in the next 20 minutes around your current location. A good rain can be refreshing, but sometimes you just want to stay dry.</p>
 
-  <img src="assets/images/icons/twitter-icon.png">
-  <h3>Global Guides</h3>
+  <img class="social-media--icon" src="assets/images/icons/twitter-icon.png" "height=100px width=100px">
+  <h3>Twitter</h3>
   <p>We&rsquo;ve scoured the entire planet for the best retreats and beautiful vistas. If there&rsquo;s a corner of the world you want to escape to we know the most scenic and inspiring locations.</p>
+</div>
 
-  <img src="assets/images/icons/myspace-icon.png">
-  <h3>Wi-Fi Waypoints</h3>
+<div class="row__6 row__6--right">
+  <img class="social-media--icon" src="assets/images/icons/myspace-icon.png" "height=100px width=100px">
+  <h3>MySpace</h3>
   <p>We only send you on trips to places we can personally vouch for as being amazing. Which means we&rsquo;ve mapped out where local wi-fi spots are and marked them in our app&rsquo;s map view.</p>
 
-  <img src="assets/images/icons/facebook-icon.png">
-  <h3>Survival Kit</h3>
+  <img class="social-media--icon" src="assets/images/icons/facebook-icon.png" "height=100px width=100px">
+  <h3>FaceBook</h3>
   <p>Everytime you book an escape with us we send you a survival kit with the finest materials. The kit will allow you to setup a tent, start a fire, scratch your own back and lower your taxes.</p>
 </div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 </div>
 
@@ -78,25 +111,40 @@
 
 
 
-<div id="reviews">
+<div id="reviews" class="reviews__background">
 
-  <img src="assets/images/icons/comment.svg">
-  <h2>Real Testimonials</h2>
+<div class="wrapper">
+  <h2 class="reviews__reviews">Reviews</h2>
 
-  <img src="assets/images/review-bob.jpg">
-  <h3>Jane Doe</h3>
-  <h3>9 Time Escaper</h3>
+<div class="row row--gutters">
+  <div class="row__4">
+<div class="reviews">
+  <img class="reviews__photo" src="assets/images/review-bob.jpg" "height=200px width=200px">
+  <h3 class="reviews__title">Bob Cobb</h3>
+  <h3 class="reviews__subtitle">9 Time Escaper</h3>
   <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&rdquo;</p>
+</div>
+</div>
 
-  <img src="assets/images/review-lisa.jpg">
-  <h3>John Smith</h3>
-  <h3>4 Time Escaper</h3>
-  <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur.&rdquo;</p>
+<div class="row__4">
+<div class="reviews">
+  <img class="reviews__photo" src="assets/images/review-lisa.jpg" "height=200px width=200px">
+  <h3 class="reviews__title">Jane Doe</h3>
+  <h3 class="reviews__subtitle">4 Time Escaper</h3>
+  <p class="reviews__jane-p">&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur.&rdquo;</p>
+</div>
+</div>
 
-  <img src="assets/images/review-roy.jpg">
-  <h3>Cat McKitty</h3>
-  <h3>6 Time Escaper</h3>
-  <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.&rdquo;</p>
+<div class="row__4">
+<div class="reviews">
+  <img class="reviews__photo" src="assets/images/review-roy.jpg" "height=200px width=200px">
+  <h3 class="reviews__title">Cat McKitty</h3>
+  <h3 class="reviews__subtitle">6 Time Escaper</h3>
+  <p class="reviews__cat-p">&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.&rdquo;</p>
+</div>
+</div>
+</div>
+</div>
 </div>
 
 
@@ -108,9 +156,10 @@
 
 
 
-<footer>
-  <p>Copyright &copy; 2018 Jiro Sushi. All rights reserved.
-    <a href="#">Make a Reservation</a></p>
+
+<footer class="footer">
+    <a href="#" class="btn btn--orange btn--large btn--footer">Make a Reservation</a></p>
+<p>Copyright &copy; 2018 Vandelay Industries. All rights reserved.
 </footer>
 
 

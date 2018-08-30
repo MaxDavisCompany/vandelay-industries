@@ -1,0 +1,41 @@
+.social-media {
+  background-color: $mainPurple;
+  padding-bottom: 10%;
+
+
+  &--title-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: -20px;
+
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  h3 {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+
+  }
+
+  p {
+    color: #fff;
+  }
+
+  &--icon {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 10px;
+
+
+  }
+}
